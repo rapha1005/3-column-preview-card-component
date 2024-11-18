@@ -1,0 +1,87 @@
+@import 'normalize.css';
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+
+:root{
+    --text-font: "Lexend Deca", sans-serif;
+    --title-font: "Big Shoulders Display", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    padding: 48px;
+    padding-bottom: 0;
+    max-width: 308px;
+}
+
+.sedans{
+    background-color: #E28625;
+}
+
+.sedans a{
+    color: #E28625;
+}
+
+.SUVS{
+    background-color: #006971;
+}
+
+.SUVS a{
+    color: #006971;
+}
+
+.luxury{
+    background-color: #004140;
+}
+
+.luxury a{
+    color: #004140;
+}
+
+img{
+    margin-bottom: 36px;
+}
+
+.section-title{
+    font-family: var(--title-font);
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.section-description{
+    font-family: var(--text-font);
+    line-height: 32px;
+    font-size: 16px;
+    opacity: 75%;
+    margin-bottom: 24px;
+}
+
+a{
+    background-color: white;
+    padding: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 24px;
+    font-family: var(--text-font);
+    font-size: 15px;
+    margin-bottom: 48px;
+    display: inline-block;
+}
+
+
+@media screen and (min-width: 768px){
+    body{
+        display: flex;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+}
